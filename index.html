@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper Scissors</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<header>
+    <h1> rock paper scissors</h1>
+</header>
+<body>
+    <div class = "score-board"> 
+        <div id = "user-label" class = "badge"> user</div> <!-- the id is for unique tags on the left and right and the badge is for the class of a badge telling what a badge is -->
+        <div id= "computer-label" class= "badge">comp</div>
+        <span id = "user-score">0</span>:<span id = "computer-score">0</span> <!-- this one will make something like 0:0-->
+    </div>
+
+    <div class = "result"><!-- the result class will hange dynamically   -->
+        <p> paper covers rock. you win!</p>
+    </div>
+    <div class = "choices">
+        <div class = "choice" id = "r" >
+            <img src="crackRock.jpeg" alt="we dont got the pic">
+        </div>
+        <div class = "choice" id = "p">
+            <img src = "paperStack.jpeg" alt="">
+        </div>
+        <div class ="choice" id = "s">
+            <img src="scissorsPic.jpeg" alt="">
+        </div>
+        <div>
+            <p id = "action-message" > make your move</p>
+        </div>
+    </div><!-- this is a div for the choices-->
+    <!-- right befoir ending body tag we put the script tag the link tag goes in the head tags-->
+    <script src = "app.js"  charset= "UTF-8" ></script>
+</body>
+</html>
